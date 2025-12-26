@@ -5,6 +5,7 @@ int main(){
     int n;
     cout<<"Enter a binary number: ";
     cin>>n;
+    if(n>0){}
     int ans=0;
     int i=0;
     while(n!=0){
@@ -16,4 +17,9 @@ int main(){
         i++;
     }
     cout<<"Decimal representation: "<<ans<<endl;
+
 } 
+
+else{
+    
+}
